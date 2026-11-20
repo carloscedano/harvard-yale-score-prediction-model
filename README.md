@@ -60,7 +60,3 @@ pip install -r requirements.txt
 | `opp_total_yds`, `opp_total_plays`            | yards and plays allowed by the defense of `team`       |
 | `opp_third_down_conv`, `opp_third_down_att`   | third downs allowed and faced by the defense of `team` |
 | `opp_turnovers`                               | turnovers forced by the defense of `team`              |
-
-## Status
-
-The model is fit, but not yet evaluated. See the "Next Steps" section at the end of `model.ipynb` for what's left: backtesting against 2016-2025, validating against 2026 results, and using the validated model to predict the upcoming Harvard-Yale game.
